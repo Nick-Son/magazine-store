@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Magazines</h1>
+
+<h2>All Magazine</h2>
+<%= render @magazines %>
+
+<h2>Art Magazines</h2>
+<%= render @art_magazines %>
+
+<h2>Food Magazines</h2>
+<%= render @food_magazines %>
+
+<h2>Fashion Magazines</h2>
+<%= render @fashion_magazines %>
+
+<h2>Magazines under $10</h2>
+<%= render @magazines_under_10 %>
+
+<h2>Magazines between $10 &amp; $15</h2>
+<%= render @magazines_between_10_and_15 %>
+
+<h2>Magazines between $15 &amp; $30</h2>
+<%= render @magazines_between_15_and_30 %>
+
+<h2>Art &amp; Fashion</h2>
+<%= render @art_and_fashion_magazines %>
+
+<h2>Art Magazines Under $10</h2>
+<%= render @art_magazines_under_10 %>
+
+<h2>Magazines Under $15 that aren't Food Magazines</h2>
+<%= render @magazines_under_15_not_food %>
+
+<h2>Magazines that are not Art Magazines</h2>
+<%= render @magazines_that_are_not_art %>
+
+<br>
+
+<%= link_to 'New Magazine', new_magazine_path %>

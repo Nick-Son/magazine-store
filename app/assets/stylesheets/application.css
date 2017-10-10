@@ -1,0 +1,10 @@
+body {
+  margin: 0 auto;
+  font-family: monofur;
+  max-width: 600px;
+}
+.mag-info {
+  border: 1px solid coral;
+  padding: 15px;
+  margin: 10px;
+}
